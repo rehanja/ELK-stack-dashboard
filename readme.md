@@ -6,12 +6,15 @@ This README document will discuss how to import previously created kibana dashbo
 Download main ELK stack components(Elasticsearch, kibana ,logstash) using below links
 
 Elasticsearch-7.4.0 Open source version
+
 https://www.elastic.co/downloads/elasticsearch or https://www.elastic.co/downloads/elasticsearch-oss
 
 Kibana-7.4.1-linux-x86_64 Open source version
+
 https://www.elastic.co/downloads/kibana-oss
 
 Logstash-7.4.1 Open source version
+
 https://www.elastic.co/downloads/logstash-oss
 
 ### 2.Extract above files into same directory

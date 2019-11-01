@@ -33,7 +33,7 @@ elasticsearch
 ```
 Then elasticsearch server will run in http://localhost:9200 
 
-To stop server you can you 
+To stop server 
 ```sh
 sudo kill -9 `sudo lsof -t -i:9200`
 ```

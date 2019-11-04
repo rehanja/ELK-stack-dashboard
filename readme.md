@@ -33,7 +33,7 @@ elasticsearch
 ```
 Then elasticsearch server will run in http://localhost:9200 
 
-To stop server 
+If you want to stop server 
 ```sh
 sudo kill -9 `sudo lsof -t -i:9200`
 ```
@@ -45,7 +45,6 @@ cd into kibana bin folder and start the server by
 ```
 Then kibana server will run in http://localhost:5601
 ### 5.Import Kibana visualization dashboard
-Want to contribute? Great!
 
 Open http://localhost:5601 and go to kibana Home page 
 ```sh

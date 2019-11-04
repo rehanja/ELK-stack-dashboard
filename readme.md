@@ -21,7 +21,12 @@ https://www.elastic.co/downloads/logstash-oss
 ```sh
 tar -zxvf [tar file name]
 ```
-### 3.Elasticsearch server manipulation
+### 3.Clone the GIT repository
+Clone the GIT repository to the same folder that ELK stack set up files downloaded
+```sh
+git clone https://github.com/rehanja/ELK-stack-dashboard
+```
+### 4.Elasticsearch server manipulation
 
 cd into elasticsearch bin folder
 ```sh
@@ -38,13 +43,13 @@ If you want to stop server
 sudo kill -9 `sudo lsof -t -i:9200`
 ```
 Because it will not stop till process kill in relevant port
-### 4.kibana server manipulation
+### 5.kibana server manipulation
 cd into kibana bin folder and start the server by
 ```sh
 ./kibana
 ```
 Then kibana server will run in http://localhost:5601
-### 5.Import Kibana visualization dashboard
+### 6.Import Kibana visualization dashboard
 
 Open http://localhost:5601 and go to kibana Home page 
 ```sh
@@ -55,7 +60,7 @@ Go to home page
 Dashboard->Test dashboard 
 ```
 The dashboard that previously created should appear there but will not run till log file feed by logstash.
-### 6.Manipulate logstash 
+### 7.Manipulate logstash 
 
 Go to ELK stack folder(not logstash bin location) and copy/paste  the test.conf file
 

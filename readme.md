@@ -7,7 +7,7 @@ Clone the GIT repository
 git clone https://github.com/rehanja/ELK-stack-dashboard
 ```
 ### 2.Download ELK stack Open source version 
-Download main ELK stack components(Elasticsearch, kibana ,logstash) using below links into the previously cloned folder.
+Download main ELK stack components(Elasticsearch, kibana ,logstash) using below links into the previously cloned directory.
 
 Elasticsearch-7.4.0 Open source version
 

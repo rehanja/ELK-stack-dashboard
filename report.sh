@@ -1,5 +1,5 @@
 #! /bin/bash
-#Daily report creation shell script(Time 00:10) for "Rapidly growing Apps" in json format
+#Daily report creation shell script(Time 00:10) for "Rapidly growing Apps" visualization in json format
 
 RUNAT="00:10"
 

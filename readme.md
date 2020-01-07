@@ -68,7 +68,7 @@ Open .conf file and change the "index" only if it's different to dashboard index
 
 Run logstash server by
 ```sh
-./logstash-7.4.1/bin/logstash -f test.conf
+./logstash-7.4.1/bin/logstash -f logstash.conf
 ```
 If you complete all steps correct the dashboard should run real time.
 

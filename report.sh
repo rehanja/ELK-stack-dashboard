@@ -1,7 +1,7 @@
 #! /bin/bash
 #Daily report creation shell script(Time 00:10) for "Rapidly growing Apps" visualization in JSON format
 
-RUNAT="00:10"
+RUNAT="09:20"
 
 while [ 1 ]
 do

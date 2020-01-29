@@ -72,3 +72,26 @@ Run logstash server by
 ```
 If you complete all steps correct the dashboard should run real time.
 
+
+### 8.Special notice
+In almost all visualizations there is a filter called "subscription".It should filter the value that have "subscription"
+in "ncs" colum(Documentation field 16 and logstash .conf file field 18). But due tho mistake in log simulator that field hasn't "subscription" string and it was in the "source-channel-type" colum(Documentation field 09 and logstash .conf file field 11). There for i have wrote all the queries relevant to  "source-channel-type" colum(Documentation field 09 and logstash .conf file field 11). There for when you deploy in the real system it should change to "ncs" colum(Documentation field 16 and logstash .conf file field 18) by doing below steps....
+
+Run the 3 ELK servers and open the kibana UI in favourite browser
+
+Go to the "Visualize" on the left side bar
+
+Choose and click on Visualizations that have filter called "subscription" as a example "Registration count over last 30 days" visualization.
+
+Click on "subscription" filter -> Edit filter -> Edit as Query DSL -> Replace "field11" with "field18" and save the filter also the visualization.
+
+You need to change all visualization by above method except "App wise registration distribution". Because "App wise registration distribution" is a Timelion visualizationan it has a different queries.
+
+To change "App wise registration distribution" visualization go to the "Visualize" on the left side bar Choose and click on Visualizations.
+
+In the left side the query relevant to the visualization will display in the box called "Timelion Expression".
+
+In that replace all "field11" with "field18" and save.
+
+
+

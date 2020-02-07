@@ -11,7 +11,7 @@ Kibana home page-> Dev Tools -> [Copy the code in to 'Console'] -> execute
 This file output will show in the right hand side terminal. "report.sh" file has created by coping this console code as a cURL command.
 
 ### 2.exportDashboards.ndjson
-This is the file that has two dashboards and related visualization.I have further discribe about this file under "8.Import Kibana visualization dashboard" in "readme.md" in GIT repository.
+This is the file that has two dashboards and related visualization.I have further discribe about this file under "8.Import Kibana visualization dashboard" in "readme.md" in main GIT repository.
 
 ### 3.LogCreation.sh
 
@@ -19,4 +19,6 @@ This bash script can use to create 12 seperate hours timestamp log files in same
 ```sh
 ./LogCreation.sh
 ```
+### 4.ELK_stack_HLD
 
+High level diagram for ELK stack.
